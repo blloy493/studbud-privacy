@@ -1,78 +1,198 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+StudBud Privacy Policy
+Effective date: October 16, 2026
+Version: 0.1.0 (beta)
 
-\f0\fs24 \cf0 StudBud Privacy Policy\
-Effective date: October 16, 2026\
-\
-StudBud is a Chrome extension that helps students break assignments into\
-steps. This policy explains what data it collects and how it is used.\
-\
-1. WHAT STAYS ON YOUR DEVICE\
-Your progress, XP, avatar name, settings, site-exclusion list, and current\
-task plan are stored locally in your browser (Chrome extension storage).\
-Resetting progress in the extension clears this local data.\
-\
-2. WHAT IS SENT TO OUR SERVER\
-When you use these features, the text you type or paste is sent to our\
-server (hosted on Vercel) and forwarded to OpenAI to generate a response:\
-- Assignment breakdown: the assignment text you submit.\
-- "I'm stuck" help: what you tell the avatar you are stuck on.\
-- Avatar chat: the messages you send to the avatar.\
-OpenAI's moderation service may also review chat messages for safety.\
-[CONFIRM: whether this text is logged or stored on our server. Current\
-statement: "We do not store the text you submit beyond processing your\
-request." Vercel function logs may retain request data for a limited time.]\
-OpenAI processes this text under its API terms. [CONFIRM: OpenAI states\
-API data is not used to train its models by default and may be retained\
-up to 30 days for abuse monitoring. Verify the current terms.]\
-\
-3. ANONYMOUS USAGE DATA\
-We collect anonymous usage events tied to a randomly generated install ID\
-(not your name, email, or account). Examples: which features are used,\
-number of steps completed, active days, and plan durations. This never\
-includes the content of your assignments or chats.\
-\
-4. FEEDBACK AND SURVEY RESPONSES\
-If you choose to answer feedback or pricing questions, or click\
-"Coming Soon" buttons, your answers are stored with your anonymous install\
-ID. Free-text feedback is stored as you write it, so please do not include\
-personal information.\
-\
-5. WAITLIST (OPTIONAL)\
-If you join the unlimited-access waitlist, we collect your email address.\
-It is stored separately from your usage data and is not linked to your\
-install ID. We use it only to notify you about StudBud access and pricing.\
-You can ask us to remove it at any time (see Contact).\
-\
-6. SECURITY MEASURES\
-To prevent abuse and control costs, we apply per-user and per-IP usage\
-limits. [CONFIRM: whether IP addresses are stored, and for how long.]\
-\
-7. WHAT WE DO NOT DO\
-- We do not sell your data.\
-- We do not use your data for advertising.\
-- We do not read or collect the content of the web pages you visit.\
-  [CONFIRM: true for the current build.]\
-- We do not collect your browsing history.\
-\
-8. RETENTION AND DELETION\
-Anonymous usage data and feedback are kept [CONFIRM: period, e.g. up to\
-24 months]. Because this data is tied only to a random ID, we cannot\
-identify which records are yours. Waitlist emails are deleted on request\
-or when the waitlist is closed. To request deletion, email us at the\
-address below.\
-\
-9. AGE\
-StudBud is intended for university students (18+ or the age of majority\
-in your region). [CONFIRM: this matches your target.]\
-\
-10. CHANGES\
-We may update this policy. The effective date above will change, and\
-material changes will be noted in the extension or on this page.\
-\
-11. CONTACT\
-[YOUR CONTACT EMAIL]}
+StudBud is a Chrome extension that breaks assignments into steps and
+gives study help through an on-screen avatar. It is operated by
+[OPERATOR NAME / BUSINESS NAME], based in Canada. This policy explains
+what data StudBud collects, why, and who receives it.
+
+Contact: [CONTACT EMAIL]
+
+
+1. SUMMARY
+
+- You choose what to type or paste. StudBud does not read the web pages
+  you visit.
+- Assignment text and chat messages you submit are sent to our server and
+  to OpenAI so an AI model can generate steps and help.
+- We collect anonymous usage statistics tied to a random install ID, not
+  to your name or account.
+- Your email is collected only if you join the optional waitlist.
+- We do not sell your data and we do not use it for advertising.
+
+
+2. DATA STORED ON YOUR DEVICE
+
+The following is stored in Chrome's extension storage on your device:
+- Your current plan: the assignment text you submitted, the generated
+  steps, your progress, XP, and focus-timer state.
+- Any text you type into step fields (for example, citation details).
+- Your avatar's name and your settings (hidden avatar, extension on/off,
+  list of sites where StudBud is turned off).
+- Usage counters (for example, number of assignments analyzed, and your
+  answers to beta survey questions).
+- A randomly generated install ID (see section 4).
+- A local log of "Coming Soon" buttons you clicked (up to 200 entries).
+
+"Reset progress" in the extension popup clears your plan and progress. It
+does not clear your avatar name, usage counters, install ID, or settings.
+Uninstalling the extension removes all locally stored data.
+
+The extension reads the address (hostname) of the page it is running on
+only to check it against your list of excluded sites. This check happens
+on your device and the hostname is not sent anywhere.
+
+
+3. DATA SENT TO OUR SERVER AND TO OPENAI
+
+When you use the features below, the data listed is sent to our server
+(hosted on Vercel) and forwarded to OpenAI's API to generate a response:
+
+- Assignment breakdown: the assignment text you submit (up to 8,000
+  characters), your answers to any clarifying questions, and, for
+  worksheets, the text of an individual question when you expand it.
+- "I'm stuck" help: the step you are working on, the type of help you
+  selected, your assignment text (up to 4,000 characters), and earlier
+  help already shown for that step.
+- Avatar chat: the message you type (up to 500 characters), recent
+  messages from the same conversation, your avatar's name, and details of
+  your current step (assignment title, step text, step number).
+  Messages are also sent to OpenAI's moderation service for safety.
+
+This data is used only to produce the response you requested. Please do
+not paste information you would not want processed by an AI service,
+such as passwords, government ID numbers, or other people's personal
+information.
+
+OpenAI processes this data under its own API terms and privacy policy
+(https://openai.com/policies).
+
+We do not intentionally store the text you submit. However, if a request
+fails, our hosting provider's error logs may contain error messages or a
+snippet of the model's output, which can relate to your assignment.
+These logs are used only for debugging and are subject to the retention
+period in section 7.
+
+
+4. ANONYMOUS USAGE DATA
+
+StudBud generates a random install ID the first time you use it. It is
+not linked to your name, email, or Google account. We use it to:
+- Count usage events: for example, plan created, step completed, plan
+  completed, beta limit reached, survey answers, waitlist joined, and the
+  time taken to complete steps or plans.
+- Apply daily usage limits per install.
+- Count, without any content, how often help is requested at each level
+  and how often you flag a worked example as wrong. These counters are
+  aggregated by help level and assignment type.
+- Count interest in upcoming features, including which integrations
+  (such as Canvas or Google Calendar) you ticked.
+
+Usage events never include the text of your assignments, steps, or chat
+messages. Because the install ID is random, we cannot tell who you are
+from it.
+
+
+5. FEEDBACK AND SURVEY RESPONSES
+
+If you answer StudBud's feedback card or beta survey, we store your
+answers (yes/no, price range, and any free-text comment of up to 500
+characters) with your install ID. We also store non-content context
+about your use: what prompted the card (finishing a plan or reaching the
+beta limit), assignment type, number of steps, number of steps
+completed, counts of plans, analyses, and avatar messages, and how many
+times the card has been shown. We read free-text feedback. Do not
+include personal information in it.
+
+
+6. WAITLIST (OPTIONAL)
+
+If you join the unlimited-access waitlist, we collect your email
+address and the date and time you signed up. These are stored
+separately from your usage data and are not stored with your install
+ID. We separately record an anonymous "waitlist joined" event for your
+install ID, which contains no email. We use your email only to contact
+you about StudBud access and pricing. You can ask us to delete it at any
+time (see section 10).
+
+
+7. SECURITY AND ABUSE PREVENTION
+
+To prevent abuse and control costs, our server applies daily request
+limits per install, per network (IP address), and across all users.
+
+- Install limits: a counter keyed to your install ID and the date.
+- Network limits: your IP address is converted to a one-way hash on our
+  server, and only that hash (a shortened code) is used for a counter
+  keyed to the date. We do not store your raw IP address in our database.
+  A hash of an IP address is pseudonymous, not fully anonymous.
+- All these counters are deleted automatically after 48 hours.
+- Our server checks that requests come from the StudBud extension. If a
+  request comes from another origin, we log that origin (the website or
+  extension address, not your IP) in our server logs.
+
+Our hosting provider (Vercel) also processes standard request metadata,
+including IP addresses, to deliver the service and in its own logs,
+under its own privacy policy (https://vercel.com/legal/privacy-policy).
+[CONFIRM: log retention period on your Vercel plan]
+
+Data in transit to our server is encrypted over HTTPS. Access to our
+database and API keys is restricted to the operator.
+
+
+8. WHAT WE DO NOT DO
+
+- We do not sell your data or share it for advertising.
+- We do not read the content of the pages you visit, and we do not
+  collect your browsing history.
+- We do not use your data for credit, lending, or insurance decisions.
+- We do not allow humans to read your data except where needed for
+  security, to comply with law, or to read feedback you submit.
+
+
+9. EXTENSION PERMISSIONS
+
+StudBud requests only the following:
+- "storage": to save your plan, progress, and settings on your device.
+- Access to our server (studbud-two.vercel.app): to send the requests
+  described in section 3 and the anonymous data in sections 4 to 6.
+- A content script that runs on all websites ("all URLs"): this exists
+  only so the avatar and task widget can appear on whatever page you are
+  studying on. The script does not read, collect, or transmit page
+  content, form fields, or your browsing history. You can turn StudBud
+  off on specific sites or everywhere from the extension popup.
+- Its image files are accessible to web pages so the avatar can display.
+
+StudBud does not request permissions for tabs, history, cookies,
+bookmarks, downloads, or screen capture.
+
+
+10. RETENTION, ACCESS, AND DELETION
+
+- Daily limit counters (section 7) expire automatically after 48 hours.
+- Anonymous usage data and feedback are kept for [CONFIRM: retention
+  period, for example up to 24 months] or until the beta ends.
+- Waitlist emails are kept until you ask for deletion or the waitlist is
+  closed.
+- Anonymous usage data is tied only to a random ID that is not shown to
+  you, so we cannot locate or delete records for a specific person.
+  Uninstalling StudBud stops all collection.
+
+To request access to or deletion of your waitlist email, or to ask any
+privacy question, email [CONTACT EMAIL]. Canadian residents may also
+have rights under applicable privacy law, including the right to
+complain to the Office of the Privacy Commissioner of Canada.
+
+
+11. AGE
+
+StudBud is intended for university and college students. It is not
+directed at children under 13, and we do not knowingly collect their
+data.
+
+
+12. CHANGES
+
+We may update this policy. The effective date above will change, and
+material changes will be noted in the extension or on this page.
