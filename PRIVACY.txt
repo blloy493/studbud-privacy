@@ -4,10 +4,10 @@ Version: 0.1.0 (beta)
 
 StudBud is a Chrome extension that breaks assignments into steps and
 gives study help through an on-screen avatar. It is operated by
-[OPERATOR NAME / BUSINESS NAME], based in Canada. This policy explains
+Brody Lloy, based in Canada. This policy explains
 what data StudBud collects, why, and who receives it.
 
-Contact: [CONTACT EMAIL]
+Contact: brodylloy@gmail.com
 
 
 1. SUMMARY
@@ -135,7 +135,7 @@ limits per install, per network (IP address), and across all users.
 Our hosting provider (Vercel) also processes standard request metadata,
 including IP addresses, to deliver the service and in its own logs,
 under its own privacy policy (https://vercel.com/legal/privacy-policy).
-[CONFIRM: log retention period on your Vercel plan]
+Data is stored in Vercel until deletion is requested.
 
 Data in transit to our server is encrypted over HTTPS. Access to our
 database and API keys is restricted to the operator.
@@ -171,8 +171,7 @@ bookmarks, downloads, or screen capture.
 10. RETENTION, ACCESS, AND DELETION
 
 - Daily limit counters (section 7) expire automatically after 48 hours.
-- Anonymous usage data and feedback are kept for [CONFIRM: retention
-  period, for example up to 24 months] or until the beta ends.
+- Anonymous usage data and feedback are kept for up to 24 months.
 - Waitlist emails are kept until you ask for deletion or the waitlist is
   closed.
 - Anonymous usage data is tied only to a random ID that is not shown to
@@ -180,7 +179,7 @@ bookmarks, downloads, or screen capture.
   Uninstalling StudBud stops all collection.
 
 To request access to or deletion of your waitlist email, or to ask any
-privacy question, email [CONTACT EMAIL]. Canadian residents may also
+privacy question, email brodylloy@gmail.com. Canadian residents may also
 have rights under applicable privacy law, including the right to
 complain to the Office of the Privacy Commissioner of Canada.
 
