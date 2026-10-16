@@ -7,7 +7,7 @@ gives study help through an on-screen avatar. It is operated by
 Brody Lloy, based in Canada. This policy explains
 what data StudBud collects, why, and who receives it.
 
-Contact: brodylloy@gmail.com
+Contact: studbud.team@gmail.com
 
 
 1. SUMMARY
@@ -179,7 +179,7 @@ bookmarks, downloads, or screen capture.
   Uninstalling StudBud stops all collection.
 
 To request access to or deletion of your waitlist email, or to ask any
-privacy question, email brodylloy@gmail.com. Canadian residents may also
+privacy question, email studbud.team@gmail.com. Canadian residents may also
 have rights under applicable privacy law, including the right to
 complain to the Office of the Privacy Commissioner of Canada.
 
